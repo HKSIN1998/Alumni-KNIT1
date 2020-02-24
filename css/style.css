@@ -1,0 +1,83 @@
+:root{
+    --theme-color:#0443a0;
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+header{
+}
+.head{
+    height: 80px;
+    padding: 20px 100px;
+}
+.head-left{
+    float: left;
+
+}
+.left1{
+    float: left;
+}
+.left1 img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.left1 h1{
+    float: right;
+    font-size: 60px;
+    margin-left: 10px;
+    margin-top: 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left2{
+    float: right;
+    margin-left: 20px;
+    margin-top: 18px;
+
+}
+.left2 hr{
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+.left2 h3{
+    word-spacing: 5px;
+    letter-spacing: 2.8px;
+}
+.head-right{
+    float: right;
+}
+.right1{
+    margin-top: 30px;
+}
+.right1 a{
+    color: black;
+    margin:10px;
+}
+nav{
+    background-color: var(--theme-color);
+    padding: 0 100px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 15px 0;
+}
+nav ul li{
+    display: inline;
+    padding:15px 0;
+    margin: 0 -3px;
+    border-left: 1px solid black;
+}
+nav ul li:last-child{
+    border-right: 1px solid black;
+}
+nav ul li a{
+    color: white;
+    padding: 15px 20px;
+}
