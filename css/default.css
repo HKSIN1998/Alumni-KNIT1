@@ -1,0 +1,13 @@
+.container-head{
+    border-bottom: 0.7px solid lightgray;
+    padding: 20px;
+}
+.container-head h3{
+    color: #0443a0;
+}
+.container-box{  
+    background-color: white;
+}
+.shadow{
+    box-shadow: 2px 2px 8px gray;
+}
